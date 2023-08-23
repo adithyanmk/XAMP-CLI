@@ -42,5 +42,5 @@ elif [ "$1" == "logs" ]; then
 elif [ "$1" == "status" ]; then
     show_status "$@"
 else
-    echo "Usage: ./runserver.sh [start|stop|logs|status] [host:port]"
+    echo "Usage: ./xamp.sh [start|stop|logs|status] [host:port]"
 fi
